@@ -4,7 +4,7 @@ import discord
 from discord import app_commands
 
 
-MY_GUILD = discord.Object(id=0)  # replace with your guild id
+MY_GUILD = discord.Object(id=952648469636595814)  # replace with your guild id
 
 
 class MyClient(discord.Client):
@@ -113,4 +113,4 @@ async def report_message(interaction: discord.Interaction, message: discord.Mess
     await log_channel.send(embed=embed, view=url_view)
 
 
-client.run('token')
+client.run('MTAyNTgyMTk4OTg1Mzc0NTE2Mw.GW6qNM.2PRIgVmyHw5dLv4Xa-OPEQmDHjTk7u1hMPxgEk')
